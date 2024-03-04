@@ -1,0 +1,377 @@
+--Gui to Lua
+--Version 1.5
+--Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local image = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel3 = Instance.new("TextLabel")
+local TextLabel2 = Instance.new("TextLabel")
+local Ballz Rainz = Instance.new("TextButton")
+local Raining taco = Instance.new("TextButton")
+local Hint = Instance.new("TextButton")
+local Hint2 = Instance.new("TextButton")
+local Meme = Instance.new("TextButton")
+local MESSAGE = Instance.new("TextButton")
+local Jumpscare = Instance.new("TextButton")
+
+--Properties
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.Parent = game.CoreGui 
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255,215,0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 1
+Frame.Position = UDim2.new(0,0,0)
+Frame.size = UDim2.new(0, 400, 0, 300)
+
+IMAGE.Parent = Frame
+IMAGE.BackgroundColor3 = Color3.fromRGB(174, 167, 255)
+IMAGE.BackgroundTransparency = 1
+IMAGE.BorderColor3 = Color3.fromRGB(0, 255, 0)
+IMAGE.BorderSizePixel = 3
+IMAGE.Size = UDim2.new(0, 356, 0, 300)
+IMAGE.Image = "rbxassetid://16591021238"
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255,215,0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 2
+TextLabel.Position = UDim2.new(0.30,0,0,0)
+TextLabel.Text = "Maxx0rGui Backdoor incident edition"
+TextLabel.TextColor3 = Color3.fromRGB(0,0,0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 500
+TextLabel.TextWrapped = true
+
+TextLabel3.Parent = Frame
+TextLabel3.BackgroundColor3 = Color3.fromRGB(255,215,0)
+TextLabel3.BorderColor3 = Color3.fromRGB(0,0,0)
+TextLabel3.BorderSizePixel = 2
+TextLabel3.BackgroundTransparency = 1
+TextLabel3.Position = UDim2.new(0.30, 0, 0.133, 0)
+TextLabel3.Size = UDim2.new(0,30,0,0.133,0)
+TextLabel3.Font = Enum.Font.GothamBold
+TextLabel3.Text = "Made By MrMaxx0r"
+TextLabel3.TextColor3 = Color3.fromRGB(0,0,0)
+TextLabel3.TextScaled = true
+TextLabel3.Size 500
+TextLabel3.TextWrapped = true
+
+TextLabel2.Parent = Frame
+TextLabel2.BackgroundColor3 = Color3.fromRGB(255,215,0)
+TextLabel2.BorderColor3 = Color3.fromRGB(0,0,0)
+TextLabel2.BorderSizePixel = 2
+TextLabel2.Position = UDim2.new(0, 0, 0.9, 0)
+TextLabel2.Size = UDim2.new(0, 400, 0, 30)
+TextLabel2.Font = Enum.Font.Cartoon
+TextLabel2.Text = "This is made for incidents"
+TextLabel2.TextColor3 = Color3.fromRGB(0,0,0)
+TextLabel2.TextScaled = true
+TextLabel2.TextSize = 100
+TextLabel2.TextWrapped = true
+
+BallzRainz.Parent = Frame
+Ballzrainz.BackgroundColor3 = Color3.fromRBG(255,215,0)
+BallzRainz.Rotation = -60
+BallzRainz.BorderColour3 = Color3.fromRGB(0,0,0)
+BallzRainz.BorderSizePixel = 2
+Ballzrainz.Position = UDim2.new(1, 0, 0.15, 0)
+BallzRainz.Size = UDim2.new(0, 80, 0, 37)
+BallzRainz.Font = Enum.Font.Cartoon
+BallzRainz.Text = "BallsRainz"
+Ballzrainz.TextColor3 =Color3.fromRBG(0,0,0)
+BallzRainz.TextScaled = true
+BallzRainz.TextSize = 100
+BallzRainz.TextWrapped= true
+BallzRainz.MouseButton1Down:connect(function()
+while true do
+communism=math.random(0,3)
+crex=math.random(3,100)
+obesity=math.random(-500, 500)
+positivity=math.random(100, 600)
+IEndorseThese=math.random(-500, 500)
+wait()
+doom=Instance.new("Part")
+local imnotfat = math.random(1, 3)
+if imnotfat == 1 then
+doom.Shape = "Ball"
+else if imnotfat == 2 then
+doom.Shape = "Cylinder"
+else 
+end end
+doom.Material = "Neon"
+doom.Size = Vector3.new(crex, crex, crex)
+doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+doom.Color = Color3.new(math.random(), math.random(), math.random())
+doom.Velocity=Vector3.new(communism, communism, communism)
+doom.Parent = game.Workspace
+yooka=math.random(-200, -50)
+doom=Instance.new("Part")
+doom.Shape = "Ball"
+doom.Size = Vector3.new(crex, crex, crex)
+doom.Position = Vector3.new(obesity, yooka, IEndorseThese)
+doom.Color = Color3.new(math.random(), math.random(), math.random())
+doom.Velocity=Vector3.new(communism, 800, communism)
+doom.Parent = game.Workspace
+communism=math.random(0,3)
+crex=math.random(3,100)
+obesity=math.random(-500, 500)
+positivity=math.random(100, 600)
+IEndorseThese=math.random(-500, 500)
+doom=Instance.new("Part")
+doom.Shape = "Ball"
+doom.Size = Vector3.new(crex, crex, crex)
+doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+doom.Color = Color3.new(math.random(), math.random(), math.random())
+doom.Velocity=Vector3.new(communism, communism, communism)
+doom.Parent = game.Workspace
+communism=math.random(0,3)
+crex=math.random(3,100)
+obesity=math.random(-500, 500)
+positivity=math.random(100, 600)
+IEndorseThese=math.random(-500, 500)
+doom=Instance.new("Part")
+doom.Shape = "Ball"
+doom.Size = Vector3.new(crex, crex, crex)
+doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+doom.Color = Color3.new(math.random(), math.random(), math.random())
+doom.Velocity=Vector3.new(communism, communism, communism)
+doom.Parent = game.Workspace
+communism=math.random(0,3)
+crex=math.random(3,100)
+obesity=math.random(-500, 500)
+positivity=math.random(100, 600)
+IEndorseThese=math.random(-500, 500)
+doom=Instance.new("Part")
+doom.Shape = "Ball"
+doom.Size = Vector3.new(crex, crex, crex)
+doom.Position = Vector3.new(obesity, positivity, IEndorseThese)
+doom.Color = Color3.new(math.random(), math.random(), math.random())
+doom.Velocity=Vector3.new(communism, communism, communism)
+doom.Parent = game.Workspace
+end
+end)
+
+Raining taco.Parent = Frame
+Raining taco.Backgroundcolor3 = Color3.fromRBG(255,215,0)
+Rainingtaco.Rotation = -60
+Raining taco.BorderColour3 = Color3.fromRBG(0,0,0)
+Raining taco.BorderSizePixel = 2
+Raining taco.Position = UDim2.new(1, 0, 0, 0)
+Raining taco.Size = UDim2.new(0, 80, 0, 37)
+Raining taco.Font =Enum.Font.Cartoon
+Raining taco.Text = "Raining Tacoz"
+Raining taco.TextColour3 = Color3.fromRBG(0,0,0)
+Raining taco.TextScaled = true
+Raining taco.TextSize = 100
+Raining taco.TextWrapped = true
+Raining taco.MouseButton1Down:connect(function()
+--By Kash5
+
+while true do
+wait(0.01)
+for i,v in pairs(game.Players:GetChildren()) do
+pcall(function ()
+local taco = Instance.new("Part",Workspace)
+taco.CanCollide = true
+local m = Instance.new("SpecialMesh",taco)
+m.MeshId = "http://www.roblox.com/asset/?id=14846869"
+m.TextureId = "http://www.roblox.com/asset/?id=14846834"
+taco.CFrame = v.Character.Torso.CFrame + Vector3.new(math.random(-50,50),100,math.random(-50,50))
+end)
+end
+end
+
+while wait() do
+if Workspace:FindFirstChild("L0L0LW0T?") then
+wait()
+else
+z = Instance.new("Sound")
+z.Parent = Workspace
+z.SoundId = "http://www.roblox.com/asset/?id=142295308"
+z.Looped = true
+z.Volume = math.huge
+z.Pitch = 1
+z.Name="L0L0LW0T?"
+z:Play()
+end
+end
+
+Hint.Parent = Frame
+Hint.backgroundColor3 = Color3.fromRBG(255,215,0)
+Hint.Rotation = -70
+Hint.BorderColor3 = Color3.fromRBG(0,0,0)
+Hint.BorderSizePixel = 2
+Hint.Position = UDim2.new(-0.43, 0, 0, 0)
+Hint.Size = UDim2.new(0, 80, 0, 37)
+Hint.Font = Enum.Font.Cartoon
+Hint.Text = "Hint1"
+Hint.TextColor3 = Color3.fromRBG(0,0,0)
+Hint.TextScaled = true
+Hint.TextSize = 100
+Hint.TextWrapped = true
+Hint.MouseButton1Down:connect(function()
+local H = Instance.new("Hint", game.Workspace)
+H.Parent = game.Workspace
+H.Text = ("MrMaxx0r DESTROY THIS GAME HAHAHAHAHA")
+wait(5)
+H:Destroy()
+
+Hint2.Parent = Frame
+Hint2.BackgroundColor3 = Color3.fromRBG(255,215,0)
+Hint2.Rotation = -60
+Hint2.BorderColor3 = Color3.fromRBG(0,0,0)
+Hint2.BorderSizePixel = 2
+Hint2.Position = UDim2.new(0.02, 0, 0.07, 0)
+Hint2.Size = UDim2.new(0, 80, 0, 37)
+Hint2.Font = Enum.Font.Cartoon
+Hint2.Text = "Hint2"
+Hint2.TextColor3 = Color3.fromRBG(0,0,0)
+Hint2.TextScaled = true
+Hint2.TextSize = 100
+Hint2.TextWrapped = true
+Hint.MouseButton1Down:connect(function()
+local H = Instance.new("Hint", game.Workspace)
+H.Parent = game.Workspace
+H.Text = ("MrMaxx0r Fucked this game lol")
+wait(5)
+H:Destroy()
+
+Meme.Parent = Frame
+Meme.BackgroundColor3 = Color3.fromRBG(255,215,0)
+Meme.BorderColor3 = Color3.fromRBG(0,0,0)
+Meme.BorderSizePixel =2
+Meme.Position = UDim2.new(0,7, 0.25, 0)
+Meme.Size = UDim2.new(0, 80, 0, 37)
+Meme.Font = Enum.Font.Cartoon
+Meme.Text = "Meme"
+Meme.TextColor3 = Color3.fromRBG(0,0,0)
+Meme.TextScaled = true
+Meme.TextSize = 100
+Meme.TextWrapped = true
+Meme.MouseButton1Down:connect(function()
+local player = game:GetService("Players").LocalPlayer
+gui1 = Instance.new("BillboardGui", player.Character.Head)
+gui1.Size = UDim2.new(10,0,10,0)
+gui1.StudsOffset = Vector3.new(0,0,0)
+gui1.AlwaysOnTop = true
+text1 = Instance.new("ImageLabel")
+text1.Image = "http://www.roblox.com/asset/?id=45120559"
+text1.Size = UDim2.new(1,0,1,0)
+text1.Position = UDim2.new(0,0,0.2,0)
+text1.BackgroundTransparency = 1
+text1.Parent = gui1
+wait()
+end)
+
+MESSAGE.Parent = Frame
+MESSAGE.BackgroundColor3 = Color3.fromRBG(255,215,0)
+MESSAGE.BorderColor3 = Color3.fromRBG(0,0,0)
+MESSAGE.BorderSizePixel = 2
+MESSAGE.position = UDim2.new(0.7, 0, 0.2, 0)
+MESSAGE.Size = UDim2.new(0, 80, 0, 37)
+MESSAGE.Font = Enum.Font.Cartoon
+MESSAGE.Text = "Message Spam"
+MESSAGE.TextColor3 = Color3.fromRBG(0,0,0)
+MESSAGE.TextScaled = true
+MESSAGE.TextSize = 100
+MESSAGE.TextWrapped = true
+MESSAGE.MouseButton1Down:connect(function()
+while wait(0.4) do
+       msg = Instance.new("Message",workspace)
+       msg.Text = "MrMaxx0r GangBang this game"
+       wait(0.4)
+       msg:Destroy()
+   end
+end)
+
+Jumpscare.Parent = Frame
+Jumpscare.BackgroundColor3 = Color3.fromRGB(255,215,0)
+Jumpscare.BorderColor3 = Color3.fromRBG(0,0,0)
+Jumpscare.BorderSizePixel = 2
+Jumpscare.Position = UDim2.new(0.8, 0, 0.2, 0)
+Jumpscare.Size = UDim2.new(0, 80, 0, 37)
+Jumpscare.Font = Enum.Font.Cartoon
+Jumpscare.Text = "Jumpscare"
+Jumpscare.TextColor3 = Color3.fromRGB(0,0,0)
+Jumpscare.TextScaled = true
+Jumpscare.TextSize = 100
+Jumpscare.TextWrapped = true
+Jumpscare.MouseButton1Down:connect(function()
+for i,v in pairs(game.Players:GetPlayers()) do
+if v.Name ~= me and not v.PlayerGui:FindFirstChild("k00pkidd's Jumpscare") and v:FindFirstChild("PlayerGui") then
+spawn(function()
+local newgui = Instance.new("ScreenGui",v.PlayerGui)
+newgui.Name = "k00p's Jumpscare"
+local newimage = Instance.new("ImageLabel",newgui)
+newimage.Image = "rbxassetid://15777105027"
+newimage.Size = UDim2.new(0,800,0,345)
+                               
+                                newimage.BackgroundTransparency = 1
+                                local m = Instance.new("Hint", game.workspace)
+                m.Text = "MrMaxx0r Worship Jesus"
+       s = Instance.new("Sound",newgui)
+s.SoundId = "rbxassetid://8683380188"
+s.Volume = 9e9
+s.Looped = true
+s:Play()
+print("Screamed "..v.Name)
+while wait(9) do
+
+newimage.Parent:Destroy()
+
+end
+end)
+end
+end
+end)
+
+-- Script:
+
+local function QFCS_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(QFCS_fake_script)()
